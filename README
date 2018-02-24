@@ -37,6 +37,6 @@ HOWTO:
             it will reset password of current user and upload new password to the Keyserver
 
 * Manually insert passwords:
-    <A> 1. go to Rstudio @ https://10.10.7.233:8743/
+    <A> 1. go to Rstudio @ https://ip.of.keyserver:8743/
         2. edit /home/citi/codes_keyserver/codes/passphrase_rotation/xx_gen_password_source.R
         3. Run it.
