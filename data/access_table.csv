@@ -1,0 +1,5 @@
+ACCESS, USERS
+srv1_user1, alice/bob
+srv2_user2, bob/cindy
+srv3_user3, alice/cindy
+

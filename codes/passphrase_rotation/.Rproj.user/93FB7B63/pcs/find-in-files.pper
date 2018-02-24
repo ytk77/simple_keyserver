@@ -1,0 +1,12 @@
+{
+    "dialog-state" : {
+        "caseSensitive" : false,
+        "filePatterns" : [
+            "*.r",
+            "*.R"
+        ],
+        "path" : "~/WorkFiles@remote/my_hobby/simple_keyserver",
+        "query" : "codes_keyserver",
+        "regex" : false
+    }
+}

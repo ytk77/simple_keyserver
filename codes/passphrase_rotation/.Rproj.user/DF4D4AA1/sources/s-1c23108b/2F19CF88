@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519368869512.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2F19CF88",
+    "lastKnownWriteTime" : 1518503721,
+    "last_content_update" : 1518503721,
+    "path" : "~/codes_keyserver/codes/passphrase_rotation/rotate_passphrase.R",
+    "project_path" : "rotate_passphrase.R",
+    "properties" : {
+        "cursorPosition" : "3,10",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

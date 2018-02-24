@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1518500703538.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1052614107",
+    "id" : "177814C1",
+    "lastKnownWriteTime" : 1518502522,
+    "last_content_update" : 1518502522919,
+    "path" : "~/codes_keyserver/codes/pw_query_shiny/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+        "cursorPosition" : "6,21",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

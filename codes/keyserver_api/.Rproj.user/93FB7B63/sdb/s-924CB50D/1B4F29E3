@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(sodium)\n\n\nargs = commandArgs(trailingOnly=TRUE)\nif (length(args)!=1) {\n    stop(\"Please input 1 argument\")\n}\nmsg = args[1]\n\n## load public key\npub_key = readRDS(\"pub_key.rds\")\n\n## encrypt message\nmsg2 <- serialize(charToRaw(msg), NULL)\nciphertext <- simple_encrypt(msg2, pub_key)\n\n## join hexdecimal string\nres <- paste0(ciphertext, collapse = '')\ncat(res)\n",
+    "created" : 1519442462659.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2121454966",
+    "id" : "1B4F29E3",
+    "lastKnownWriteTime" : 1519432668,
+    "last_content_update" : 1519432668,
+    "path" : "~/WorkFiles@remote/my_hobby/simple_keyserver/codes/keyserver_api/client/encrypt_msg.R",
+    "project_path" : "client/encrypt_msg.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

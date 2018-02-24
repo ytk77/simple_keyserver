@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1518166523483.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1730563590",
+    "id" : "75CD6F6E",
+    "lastKnownWriteTime" : 1518501596,
+    "last_content_update" : 1518501596525,
+    "path" : "~/codes_keyserver/codes/pw_query_shiny/fnc_Process.R",
+    "project_path" : "fnc_Process.R",
+    "properties" : {
+        "cursorPosition" : "12,33",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

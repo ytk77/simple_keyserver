@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519368652828.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3059831174",
+    "id" : "CA5156DD",
+    "lastKnownWriteTime" : 1518494396,
+    "last_content_update" : 1518494396,
+    "path" : "~/codes_keyserver/codes/keyserver_api/client/reset_password.sh",
+    "project_path" : "client/reset_password.sh",
+    "properties" : {
+        "cursorPosition" : "14,20",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "sh"
+}

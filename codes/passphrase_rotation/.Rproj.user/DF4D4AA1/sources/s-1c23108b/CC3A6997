@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1518074996850.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CC3A6997",
+    "lastKnownWriteTime" : 1519369202,
+    "last_content_update" : 1519369202137,
+    "path" : "~/codes_keyserver/codes/passphrase_rotation/xx_gen_password_source.R",
+    "project_path" : "xx_gen_password_source.R",
+    "properties" : {
+        "cursorPosition" : "5,23",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

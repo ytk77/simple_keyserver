@@ -1,0 +1,42 @@
+INSTALLED PACKAGES:
+	R
+	R-studio (redirected https at port 8743)
+	nginx (with configured https)
+    shiny server (redirected https at port 443)
+
+
+CONFIGURATIONS:
+    [ crontab ]
+        - launch API service at reboot, listen @ 10.10.7.233:9000
+          (@reboot  cd /home/citi/codes_keyserver/codes/keyserver_api;  bash persistent_run_api.sh)
+        - Passphrase rotate and send emails (on every 6am Monday)
+          (0 6 * * 1  cd /home/citi/codes_keyserver/codes/passphrase_rotation;  Rscript rotate_passphrase.R)
+    [ access table ]
+        - at ~/codes_keyserver/data/access_table.csv
+    [ email list ]
+        - at ~/codes_keyserver/data/email_list.csv
+
+    
+HOWTO:
+* Check if Shiny and API are listening on Keyserver?
+    <A> netstat -ntlp | grep LISTEN
+
+* Deploy codes to Client (Reset Password on the Client):
+    <A> 1. copy /home/citi/codes_keyserver/codes/keyserver_api/client to clent's /home/
+        2. install R on the client
+        3. APT install
+            (if ubuntu 14.04)
+            apt-get install -y software-properties-common
+            sudo add-apt-repository -y ppa:ondrej/php
+            apt-get update
+            (^^^ if ubuntu 14.04 ^^^)
+            apt-get install -y libsodium-dev
+        4. install packages: sodium
+            install.packages("sodium")
+        5. RUN reset_password.sh
+            it will reset password of current user and upload new password to the Keyserver
+
+* Manually insert passwords:
+    <A> 1. go to Rstudio @ https://10.10.7.233:8743/
+        2. edit /home/citi/codes_keyserver/codes/passphrase_rotation/xx_gen_password_source.R
+        3. Run it.

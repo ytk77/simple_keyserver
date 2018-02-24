@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1518064089558.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "23AB4485",
+    "lastKnownWriteTime" : 1518166237,
+    "last_content_update" : 1518166237304,
+    "path" : "~/codes_keyserver/codes/passphrase_rotation/fnc_Process.R",
+    "project_path" : "fnc_Process.R",
+    "properties" : {
+        "cursorPosition" : "51,23",
+        "docOutlineSize" : "262.78734850287447",
+        "docOutlineVisible" : "0",
+        "scrollLine" : "19",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
